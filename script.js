@@ -11,16 +11,3 @@ function getRandomColor () {
 document.getElementById("colorBtn").addEventListener("click", function () {
     document.body.style.backgroundColor = getRandomColor()});
 
-document.addEventListener("DOMContentLoaded", function() {
-    const goToblogs = document.getElementById("goToblogs");
-    const goToIndex = document.getElementById("goToIndex");
-    if (goToblogs) { 
-        goToblogs.addEventListener("click", function () {
-            window.location.href = "blogs.html"});
-    
-    }
-    if (goToIndex) { 
-        goToblogs.addEventListener("click", function () {
-            window.location.href = "index.html"});
-    }
-});

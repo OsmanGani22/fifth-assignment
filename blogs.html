@@ -6,11 +6,11 @@
     <title>Blogs</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-<link href="/src/styles.css" rel="stylesheet">
-<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="/src/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class = "bg-gray-200">
     <section id="navbar">
         <div class="navbar shadow-sm m-5 ">
             <div class="flex ">
@@ -22,7 +22,33 @@
              </div>
           </div>
     </section>
+    <div class="font-bold text-2xl flex justify-center">Blogs</div>
+<div class="bg-base-200 p-2 m-2 rounded">
+    <h3 class="font-bold">Question-01: What are the different ways to select an element in the DOM? </h3>
+    <p>Answer: getElementByID(), getElementsByClassName(), getElementsByTagName(), querySelector(), querySelectorAll() etc. </p>
+</div>
+<div class=" p-2 rounded">
+    <h3 class="font-bold">Question-02: What is the difference between innerHTML, innerText, and textContent ?</h3>
+    <p>Answer: innerHTML- gets HTML contents including HTML Tags.
+        innerText- gets the visible text content without HTML Tags.
+        textContent- gets all text content including hidden elements.
+    </p>
+</div>
+<div class="bg-base-200 p-2 rounded">
+    <h3 class="font-bold">Question-03: What is event delegation in the DOM?</h3>
+    <p>Answer: It allows to attach a single listener to parent element instead of adding multiple event listener to child elements.</p>
+</div>
+<div class="bg-gray-200 p-2 rounded">
+    <h3 class="font-bold">Question-04: What is event bubbling in the DOM?</h3>
+    <p>Answer: In this mechanism, events are propagated from the target element up to its ancestors.</p>
+</div>
+<div class="bg-base-200 p-2 rounded">
+    <h3 class="font-bold">Question-05:How do you create, add, and remove elements using JavaScript? </h3>
+    <p>Answer: create- document.createElement(), add- appendChild(), remove- removeChild().</p>
+</div>
+   
 
-    <script src="script.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
