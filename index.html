@@ -11,9 +11,10 @@
 <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="m-25">
+<body>
+<div class= "p-25" id="mainDiv">
     <section id="navbar">
-        <div class="navbar shadow-sm m-5 ">
+        <div class="navbar shadow-sm bg-gray-200 m-5 ">
             <div class="flex ">
                <div> <img src="assets/logo.png" alt="logo"></div>
               <div><a class="btn btn-ghost text-xl">Dev<span class="font-bold">Board</span></a></div>
@@ -39,7 +40,7 @@
         <img src="assets/calender.png" alt="calender">
         <p id="currentDate"></p>
     </div>
-    <div class="row-span-3 bg-base-100 rounded-md p-2">
+    <div class="row-span-3 bg-gray-200 rounded-md p-2">
         <div class="flex"> <img src="assets/activity.png" alt="activity">
         <p class="ml-3">Activity log</p></div>
         <button class="btn bg-blue-600 text-white" id="clearHistoryBtn">Clear History</button>
@@ -95,5 +96,6 @@
     
     </div>
     <script src="script.js"></script>
+</div>
 </body>
 </html>

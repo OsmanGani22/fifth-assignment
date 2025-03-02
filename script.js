@@ -9,7 +9,7 @@ function getRandomColor() {
 }
 
 document.getElementById("colorBtn").addEventListener("click", function () {
-    document.body.style.backgroundColor = getRandomColor()
+    document.getElementById("mainDiv").style.backgroundColor = getRandomColor()
 });
 
 
