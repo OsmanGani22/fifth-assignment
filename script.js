@@ -63,6 +63,10 @@ document.getElementById("goToblogs").addEventListener("click", function () {
     document.getElementById("currentDate").textContent = formattedDate;
     console.log(formattedDate);  
 
+
+    clearHistoryBtn.addEventListener("click", function() {
+        messages.innerHTML = ''; 
+    });
     
     
 
