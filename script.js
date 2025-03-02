@@ -19,13 +19,15 @@ document.getElementById("goToblogs").addEventListener("click", function () {
     let completedTasks = document.getElementById("completedTasks");
     let completeButtons = document.getElementsByClassName("completeBtn");
     let clickedCount = 0;
-    let message = document.createElement("p");
-    message.textContent = "You have completed the task Fix Mobile Button Issue at 8.30 PM";
+    
     
     Array.from(completeButtons).forEach(button => {
         button.addEventListener("click", function () {
             alert("Board updated successfully");
-            messages.appendChild(message);
+           
+            let message = document.createElement("p");
+        message.textContent = "You have completed the task Fix Mobile Button Issue at 8.30 PM";
+        messages.appendChild(message);
            
             let assigned = parseInt(assignedTasks.textContent);
             let completed = parseInt(completedTasks.textContent);
